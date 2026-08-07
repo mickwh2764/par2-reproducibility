@@ -1,0 +1,117 @@
+{
+  "accession": "GSE54650",
+  "tissues": {
+    "adrenal": {
+      "clock_median": 0.657,
+      "target_median": 0.3573,
+      "background_median": 0.4165,
+      "gap_clock_minus_target": 0.2997,
+      "clock_above_target": true,
+      "full_hierarchy_holds": false,
+      "n_genes": 20955
+    },
+    "aorta": {
+      "clock_median": 0.6773,
+      "target_median": 0.4363,
+      "background_median": 0.4193,
+      "gap_clock_minus_target": 0.241,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "brainstem": {
+      "clock_median": 0.6157,
+      "target_median": 0.4054,
+      "background_median": 0.4395,
+      "gap_clock_minus_target": 0.2103,
+      "clock_above_target": true,
+      "full_hierarchy_holds": false,
+      "n_genes": 20955
+    },
+    "brown_fat": {
+      "clock_median": 0.7102,
+      "target_median": 0.3895,
+      "background_median": 0.4232,
+      "gap_clock_minus_target": 0.3207,
+      "clock_above_target": true,
+      "full_hierarchy_holds": false,
+      "n_genes": 20955
+    },
+    "cerebellum": {
+      "clock_median": 0.5776,
+      "target_median": 0.4864,
+      "background_median": 0.4404,
+      "gap_clock_minus_target": 0.0912,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "heart": {
+      "clock_median": 0.7292,
+      "target_median": 0.4937,
+      "background_median": 0.4376,
+      "gap_clock_minus_target": 0.2355,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "hypothalamus": {
+      "clock_median": 0.4468,
+      "target_median": 0.4379,
+      "background_median": 0.4006,
+      "gap_clock_minus_target": 0.0089,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "kidney": {
+      "clock_median": 0.8195,
+      "target_median": 0.53,
+      "background_median": 0.461,
+      "gap_clock_minus_target": 0.2895,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "liver": {
+      "clock_median": 0.6467,
+      "target_median": 0.5285,
+      "background_median": 0.4963,
+      "gap_clock_minus_target": 0.1182,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "lung": {
+      "clock_median": 0.8591,
+      "target_median": 0.529,
+      "background_median": 0.4904,
+      "gap_clock_minus_target": 0.3301,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "muscle": {
+      "clock_median": 0.6313,
+      "target_median": 0.4858,
+      "background_median": 0.4529,
+      "gap_clock_minus_target": 0.1455,
+      "clock_above_target": true,
+      "full_hierarchy_holds": true,
+      "n_genes": 20955
+    },
+    "white_fat": {
+      "clock_median": 0.6828,
+      "target_median": 0.3974,
+      "background_median": 0.4155,
+      "gap_clock_minus_target": 0.2854,
+      "clock_above_target": true,
+      "full_hierarchy_holds": false,
+      "n_genes": 20955
+    }
+  },
+  "tissues_with_positive_gap": 12,
+  "tissues_with_full_hierarchy": 8,
+  "n_tissues": 12,
+  "median_gap": 0.2382
+}

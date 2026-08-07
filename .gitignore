@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Raw GEO downloads are fetched at run time (see paper-g/code/download_data.py)
+# and identified by SHA-256 in paper-g/data/checksums.txt.
+paper-g/data/raw/

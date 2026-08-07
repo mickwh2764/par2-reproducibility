@@ -1,0 +1,2 @@
+accession	organism	description	timepoints	interval_h	series_matrix_url	used_for
+GSE54650	Mus musculus	Hughes/Zhang circadian atlas, 12 tissues, microarray (GPL6246)	24	2	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54650/matrix/GSE54650_series_matrix.txt.gz	Eigenvalue hierarchy across 12 tissues; phi-proximity of clock-target coefficient ratios

@@ -1,0 +1,122 @@
+{
+  "seed": 42,
+  "null": {
+    "n_draws": 10000,
+    "n_stable": 5004,
+    "rate_unfiltered_5pct": 0.041,
+    "rate_stable_5pct": 0.0476,
+    "rate_unfiltered_2pct": 0.0151,
+    "rate_stable_2pct": 0.018
+  },
+  "observed_accession": "GSE54650",
+  "observed": [
+    {
+      "tissue": "adrenal",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 0,
+      "rate_5pct": 0.0,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "aorta",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 0,
+      "rate_5pct": 0.0,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "brainstem",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 0,
+      "rate_5pct": 0.0,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "brown_fat",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 1,
+      "rate_5pct": 0.0263,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "cerebellum",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 1,
+      "rate_5pct": 0.0263,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "heart",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 2,
+      "rate_5pct": 0.0526,
+      "hits_2pct": 1,
+      "rate_2pct": 0.0263
+    },
+    {
+      "tissue": "hypothalamus",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 2,
+      "rate_5pct": 0.0526,
+      "hits_2pct": 2,
+      "rate_2pct": 0.0526
+    },
+    {
+      "tissue": "kidney",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 0,
+      "rate_5pct": 0.0,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "liver",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 0,
+      "rate_5pct": 0.0,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "lung",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 1,
+      "rate_5pct": 0.0263,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "muscle",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 0,
+      "rate_5pct": 0.0,
+      "hits_2pct": 0,
+      "rate_2pct": 0.0
+    },
+    {
+      "tissue": "white_fat",
+      "n_clock_target": 38,
+      "n_stable": 38,
+      "hits_5pct": 1,
+      "rate_5pct": 0.0263,
+      "hits_2pct": 1,
+      "rate_2pct": 0.0263
+    }
+  ]
+}

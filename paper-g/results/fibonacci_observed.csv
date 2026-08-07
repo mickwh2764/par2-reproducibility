@@ -1,0 +1,13 @@
+tissue,n_clock_target,n_stable,hits_5pct,rate_5pct,hits_2pct,rate_2pct
+adrenal,38,38,0,0.0,0,0.0
+aorta,38,38,0,0.0,0,0.0
+brainstem,38,38,0,0.0,0,0.0
+brown_fat,38,38,1,0.0263,0,0.0
+cerebellum,38,38,1,0.0263,0,0.0
+heart,38,38,2,0.0526,1,0.0263
+hypothalamus,38,38,2,0.0526,2,0.0526
+kidney,38,38,0,0.0,0,0.0
+liver,38,38,0,0.0,0,0.0
+lung,38,38,1,0.0263,0,0.0
+muscle,38,38,0,0.0,0,0.0
+white_fat,38,38,1,0.0263,1,0.0263

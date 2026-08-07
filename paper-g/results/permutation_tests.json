@@ -1,0 +1,129 @@
+{
+  "accession": "GSE54650",
+  "seed": 42,
+  "clock_median_test": {
+    "adrenal": {
+      "observed_clock_median": 0.657,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4154,
+      "null_p95": 0.5064,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    },
+    "aorta": {
+      "observed_clock_median": 0.6773,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4191,
+      "null_p95": 0.5027,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    },
+    "brainstem": {
+      "observed_clock_median": 0.6157,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4388,
+      "null_p95": 0.5227,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 1,
+      "p_value": 0.00019998000199980003
+    },
+    "brown_fat": {
+      "observed_clock_median": 0.7102,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4241,
+      "null_p95": 0.5008,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    },
+    "cerebellum": {
+      "observed_clock_median": 0.5776,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.441,
+      "null_p95": 0.527,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 44,
+      "p_value": 0.0044995500449955
+    },
+    "heart": {
+      "observed_clock_median": 0.7292,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4367,
+      "null_p95": 0.5202,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    },
+    "hypothalamus": {
+      "observed_clock_median": 0.4468,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4006,
+      "null_p95": 0.4815,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 1730,
+      "p_value": 0.1730826917308269
+    },
+    "kidney": {
+      "observed_clock_median": 0.8195,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4591,
+      "null_p95": 0.5467,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    },
+    "liver": {
+      "observed_clock_median": 0.6467,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4959,
+      "null_p95": 0.5873,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 20,
+      "p_value": 0.0020997900209979003
+    },
+    "lung": {
+      "observed_clock_median": 0.8591,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4894,
+      "null_p95": 0.5764,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    },
+    "muscle": {
+      "observed_clock_median": 0.6313,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4539,
+      "null_p95": 0.5329,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 1,
+      "p_value": 0.00019998000199980003
+    },
+    "white_fat": {
+      "observed_clock_median": 0.6828,
+      "n_clock_genes": 16,
+      "null_median_of_medians": 0.4162,
+      "null_p95": 0.4937,
+      "n_permutations": 10000,
+      "n_null_ge_observed": 0,
+      "p_value": 9.999000099990002e-05
+    }
+  },
+  "phi_zone_test": {
+    "phi_zone": [
+      0.603,
+      0.633
+    ],
+    "n_tissues": 12,
+    "n_classified_genes": 213,
+    "n_in_zone_any_tissue": 93,
+    "observed_rate": 0.4366,
+    "null_expected_rate": 0.4085,
+    "genome_wide_rate_per_tissue": 0.0427,
+    "n_permutations": 5000,
+    "p_value": 0.22115576884623075,
+    "note": "Reproduces Paper G's negative result: classified genes are no more likely to sit in the 1/phi zone than random genes tested over the same number of tissues."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "clock": [
+    "PER1", "PER2", "PER3", "CRY1", "CRY2", "CLOCK", "ARNTL", "BMAL1",
+    "NR1D1", "NR1D2", "RORA", "RORC", "DBP", "TEF", "HLF", "NFIL3", "NPAS2"
+  ],
+  "target": [
+    "MYC", "CCND1", "CCNB1", "CDK1", "WEE1", "CDKN1A", "LGR5", "AXIN2",
+    "CTNNB1", "APC", "TP53", "TRP53", "MDM2", "ATM", "CHEK2", "BCL2",
+    "BAX", "PPARG", "SIRT1", "HIF1A", "CCNE1", "CCNE2", "MCM6", "MKI67"
+  ],
+  "housekeeping": [
+    "GAPDH", "ACTB", "HPRT", "TBP", "B2M", "RPLP0", "PGK1", "PPIA", "GUSB",
+    "SDHA", "TUBB5", "UBC", "YWHAZ", "HMBS", "ALDOA", "ENO1", "LDHA", "TPI1",
+    "RPL13A", "RPS18", "POLR2A", "EEF1A1", "EIF4A2"
+  ],
+  "immune": [
+    "TNF", "IL1B", "IL6", "IL10", "IFNG", "STAT1", "STAT3", "IRF1", "IRF7",
+    "NFKB1", "NFKB2", "RELA", "TLR2", "TLR4", "CD4", "CD8A", "CD19", "CD68",
+    "FCGR1", "CXCL1", "CXCL10", "CCL2", "CCL5", "ICOS", "PTPRC"
+  ],
+  "metabolic": [
+    "PPARA", "PPARD", "PPARGC1A", "FASN", "ACACA", "HMGCR", "CYP7A1", "GPX1",
+    "SOD1", "SOD2", "CAT", "GLUT1", "SLC2A1", "SLC2A2", "GCK", "PCK1", "G6PC",
+    "FBP1", "CS", "IDH1", "IDH2", "OGDH", "NDUFV1", "COX4I1", "ATP5A1",
+    "ACOX1", "CPT1A", "ACADM"
+  ],
+  "chromatin": [
+    "HDAC1", "HDAC2", "HDAC3", "HDAC4", "SIRT2", "SIRT3", "SIRT6", "SIRT7",
+    "KAT2A", "KAT2B", "EP300", "CREBBP", "EZH2", "KDM5A", "KDM1A", "DNMT1",
+    "DNMT3A", "DNMT3B", "TET1", "TET2", "TET3", "SMARCA4", "ARID1A", "CTCF",
+    "SUV39H1", "SETDB1"
+  ],
+  "signaling": [
+    "NOTCH1", "NOTCH2", "HES1", "HEY1", "DLL1", "JAG1", "WNT3A", "WNT5A",
+    "FZD1", "FZD7", "LRP5", "LRP6", "DKK1", "RSPO1", "SHH", "GLI1", "GLI2",
+    "PTCH1", "SMO", "MAPK1", "MAPK3", "AKT1", "AKT2", "PTEN", "MTOR",
+    "RPTOR", "EGFR", "ERBB2", "FGFR1", "VEGFA", "TGFB1", "SMAD2", "SMAD3",
+    "SMAD4", "BMP2", "BMP4"
+  ],
+  "dna_repair": [
+    "BRCA1", "BRCA2", "RAD51", "RAD50", "XRCC1", "XRCC4", "ERCC1", "ERCC2",
+    "MLH1", "MSH2", "MSH6", "PMS2", "XPC", "DDB2", "OGG1", "APEX1", "LIG1",
+    "LIG3", "LIG4", "PARP1", "PARP2", "POLB", "POLK", "REV3L", "FANCD2",
+    "FANCA", "H2AFX"
+  ],
+  "stem": [
+    "LGR5", "ASCL2", "SMOC2", "OLFM4", "BMI1", "SOX2", "SOX9", "POU5F1",
+    "NANOG", "KLF4", "LIN28A", "ALDH1A1", "PROM1", "CD44", "LRIG1", "HOPX",
+    "TERT", "LY6A"
+  ],
+  "ensembl_to_symbol": {
+    "ENSMUSG00000020893": "Per1",
+    "ENSMUSG00000055866": "Per2",
+    "ENSMUSG00000028957": "Per3",
+    "ENSMUSG00000020038": "Cry1",
+    "ENSMUSG00000068742": "Cry2",
+    "ENSMUSG00000029238": "Clock",
+    "ENSMUSG00000055116": "Arntl",
+    "ENSMUSG00000020889": "Nr1d1",
+    "ENSMUSG00000021775": "Nr1d2",
+    "ENSMUSG00000032238": "Rora",
+    "ENSMUSG00000028150": "Rorc",
+    "ENSMUSG00000059824": "Dbp",
+    "ENSMUSG00000022389": "Tef",
+    "ENSMUSG00000003949": "Hlf",
+    "ENSMUSG00000056749": "Nfil3",
+    "ENSMUSG00000026077": "Npas2",
+    "ENSMUSG00000022346": "Myc",
+    "ENSMUSG00000070348": "Ccnd1",
+    "ENSMUSG00000041431": "Ccnb1",
+    "ENSMUSG00000019942": "Cdk1",
+    "ENSMUSG00000031016": "Wee1",
+    "ENSMUSG00000023067": "Cdkn1a",
+    "ENSMUSG00000020140": "Lgr5",
+    "ENSMUSG00000000142": "Axin2",
+    "ENSMUSG00000006932": "Ctnnb1",
+    "ENSMUSG00000005871": "Apc",
+    "ENSMUSG00000059552": "Trp53",
+    "ENSMUSG00000020184": "Mdm2",
+    "ENSMUSG00000028530": "Gapdh",
+    "ENSMUSG00000029580": "Actb"
+  },
+  "aliases": {
+    "BMAL1": ["ARNTL"],
+    "TP53": ["TRP53"],
+    "SLC2A1": ["GLUT1"],
+    "HPRT1": ["HPRT"]
+  },
+  "assignment_rule": "Each gene assigned to exactly one primary category; first match wins; no overlapping assignments. Priority order follows the key order above (clock > target > housekeeping > ...)."
+}

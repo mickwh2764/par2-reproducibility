@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Monthly, so a broken upstream dependency or a re-issued GEO file shows up
+  # before someone else discovers it.
+  schedule:
+    - cron: "0 6 1 * *"
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt ruff
+      - run: ruff check .
+      - run: pytest -q
+      # Reruns the analyses that need no download and diffs them against the
+      # committed results.
+      - run: python paper-g/verify.py --quick
+
+  reproduce:
+    # The full rerun downloads 27 MB from NCBI GEO, so it is not run on every
+    # push.
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python paper-g/code/download_data.py --verify
+      - run: python paper-g/verify.py

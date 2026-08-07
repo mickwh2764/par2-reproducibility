@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "PAR(2) reproducibility: analysis code and expected results"
+message: "If you use this code, please cite both this repository and the paper it reproduces."
+type: software
+authors:
+  - given-names: Michael
+    family-names: Whiteside
+    orcid: "https://orcid.org/0009-0000-0643-5791"
+license: MIT
+repository-code: "https://github.com/mickwh2764/par2-reproducibility"
+keywords:
+  - circadian
+  - autoregressive
+  - AR(2)
+  - eigenvalue modulus
+  - reproducibility
+  - gene expression
+references:
+  - type: article
+    title: "A Time-Domain Analogue to Fibonacci Structure via Phase-Gated AR(2) Dynamics"
+    authors:
+      - given-names: Michael
+        family-names: Whiteside
+    journal: "The Fibonacci Quarterly"
+    year: 2026
+    notes: "Accepted, in press."
+  - type: software
+    title: "par2-circadian"
+    authors:
+      - given-names: Michael
+        family-names: Whiteside
+    url: "https://pypi.org/project/par2-circadian/"
+    version: "1.1.5"

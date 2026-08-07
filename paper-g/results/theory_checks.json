@@ -1,0 +1,48 @@
+{
+  "phi": 1.618033988749895,
+  "checks": [
+    {
+      "name": "Proposition 1",
+      "statement": "Boman's M equals the AR(2) companion matrix C(1,1)",
+      "passed": true,
+      "detail": "C(1,1) = [[1.0, 1.0], [1.0, 0.0]], M = [[1, 1], [1, 0]]"
+    },
+    {
+      "name": "Theorem 1",
+      "statement": "(1,1) lies outside the stationarity triangle with |lambda| = phi > 1",
+      "passed": true,
+      "detail": "|lambda| = 1.618033988749895, phi = 1.618033988749895, stable = False"
+    },
+    {
+      "name": "Corollary 1",
+      "statement": "The ray (s,s) enters the stability triangle at s = 1/2",
+      "passed": true,
+      "detail": "largest stable s on the ray = 0.49999"
+    },
+    {
+      "name": "Proposition 2",
+      "statement": "equal-coefficient stationarity ends at c = 1/2 (roots 1 and -1/2); the Fibonacci point c = 1 is twice as far",
+      "passed": true,
+      "detail": "roots at c=1/2: [-0.5, 1.0], ratio c_fib/c_boundary = 2.0"
+    },
+    {
+      "name": "Proposition S1",
+      "statement": "phi * (1/phi) = 1 and phi - 1 = 1/phi",
+      "passed": true,
+      "detail": "phi - 1 = 0.618033988749895, 1/phi = 0.618033988749895"
+    },
+    {
+      "name": "Proposition S2 / Corollary S2",
+      "statement": "geometric memory sum equals phi^2, and phi^2 = phi + 1",
+      "passed": true,
+      "detail": "sum = 2.618033988750, phi^2 = 2.618033988750, phi + 1 = 2.618033988750"
+    },
+    {
+      "name": "Proposition S3",
+      "statement": "stable band (0.52, 0.72) contains p=0/1 and p=2 but not p=3",
+      "passed": true,
+      "detail": "p=0/1: q=0.6180 in, p=2: q=0.6823 in, p=3: q=0.7245 out"
+    }
+  ],
+  "n_failed": 0
+}
