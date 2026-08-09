@@ -34,6 +34,19 @@ need no download.
 Tested on Python 3.10 with `par2-circadian` 1.1.5, NumPy 2.2, pandas 2.3,
 SciPy 1.15.
 
+## Related work
+
+Michael Whiteside, independent computational systems researcher
+([ORCID 0009-0000-0643-5791](https://orcid.org/0009-0000-0643-5791)).
+
+| | |
+| --- | --- |
+| Package | [`par2-circadian`](https://pypi.org/project/par2-circadian/) · [source](https://github.com/mickwh2764/par2discovery) |
+| Platform | [par2discovery.com](https://par2discovery.com) |
+| Method preprint | [AR(2) eigenvalue modulus as a measure of temporal persistence in gene expression](https://doi.org/10.21203/rs.3.rs-9283100/v1) |
+| Tissue-specific dynamics | [A phase-gated autoregressive framework](https://doi.org/10.21203/rs.3.rs-9214347/v1) |
+| Half-life independence | [Context-dependent expression persistence](https://doi.org/10.21203/rs.3.rs-9385465/v1) |
+
 ## Licence
 
 Code is MIT (see [LICENSE](LICENSE)). The GEO data is redistributed by NCBI
