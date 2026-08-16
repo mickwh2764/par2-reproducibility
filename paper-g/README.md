@@ -130,3 +130,6 @@ Nothing in this repository has been tuned to reproduce the platform's output.
 
 See [`CITATION.cff`](../CITATION.cff). Please cite both the paper and the
 `par2-circadian` package.
+
+The code here is MIT, but it calls `par2-circadian`, which is noncommercial —
+see [Licence](../README.md#licence) before using this pipeline commercially.

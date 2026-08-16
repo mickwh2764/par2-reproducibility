@@ -1,6 +1,11 @@
 cff-version: 1.2.0
 title: "PAR(2) reproducibility: analysis code and expected results"
 message: "If you use this code, please cite both this repository and the paper it reproduces."
+abstract: >-
+  Analysis code, dataset accessions and expected results for the published PAR(2)
+  papers. The MIT licence below covers this repository only; the AR(2) fitting comes
+  from the par2-circadian package, which is licensed for noncommercial use, so the
+  pipeline as a whole is noncommercial.
 type: software
 authors:
   - given-names: Michael
@@ -31,3 +36,4 @@ references:
         family-names: Whiteside
     url: "https://pypi.org/project/par2-circadian/"
     version: "1.1.5"
+    license: PolyForm-Noncommercial-1.0.0
