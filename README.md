@@ -1,5 +1,7 @@
 # PAR(2) reproducibility
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21963088.svg)](https://doi.org/10.5281/zenodo.21963088)
+
 Analysis code, dataset accessions and expected results for the published PAR(2)
 papers. One directory per paper, each self-contained and runnable from a clean
 checkout with public data only.
@@ -14,6 +16,15 @@ package is the citable engine and this repository is the analysis around it.
 | [`paper-g/`](paper-g/) | *A Time-Domain Analogue to Fibonacci Structure via Phase-Gated AR(2) Dynamics*, The Fibonacci Quarterly | accepted, in press |
 
 Further bundles will be added as each paper is accepted.
+
+## Citation
+
+Every release is archived on Zenodo. Cite the concept DOI
+[10.5281/zenodo.21963088](https://doi.org/10.5281/zenodo.21963088), which always
+resolves to the latest version, or a version DOI
+(v1.0.0 is [10.5281/zenodo.21963103](https://doi.org/10.5281/zenodo.21963103)) if
+you need to pin exactly what you ran. Machine-readable metadata is in
+[`CITATION.cff`](CITATION.cff).
 
 ## Quick start
 

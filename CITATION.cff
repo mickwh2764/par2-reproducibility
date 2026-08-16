@@ -12,7 +12,16 @@ authors:
     family-names: Whiteside
     orcid: "https://orcid.org/0009-0000-0643-5791"
 license: MIT
+version: 1.0.0
+doi: 10.5281/zenodo.21963088
 repository-code: "https://github.com/mickwh2764/par2-reproducibility"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21963088
+    description: Concept DOI, always resolving to the latest release
+  - type: doi
+    value: 10.5281/zenodo.21963103
+    description: Version DOI for release v1.0.0
 keywords:
   - circadian
   - autoregressive
