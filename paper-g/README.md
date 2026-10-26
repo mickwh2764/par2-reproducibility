@@ -1,7 +1,8 @@
 # Paper G — Fibonacci structure and phase-gated AR(2) dynamics
 
 Reproduction bundle for *A Time-Domain Analogue to Fibonacci Structure via
-Phase-Gated AR(2) Dynamics* (The Fibonacci Quarterly, accepted and in press),
+Phase-Gated AR(2) Dynamics* (The Fibonacci Quarterly, published 6 Oct 2026,
+[doi:10.1080/00150517.2026.2716122](https://doi.org/10.1080/00150517.2026.2716122)),
 a reply to Boman's spatial-recursion argument.
 
 This is an **independent reimplementation in Python**, not the code that
@@ -131,5 +132,5 @@ Nothing in this repository has been tuned to reproduce the platform's output.
 See [`CITATION.cff`](../CITATION.cff). Please cite both the paper and the
 `par2-circadian` package.
 
-The code here is MIT, but it calls `par2-circadian`, which is noncommercial —
-see [Licence](../README.md#licence) before using this pipeline commercially.
+The code here is MIT, and it calls `par2-circadian`, which is Apache-2.0 from
+version 1.2.0 — see [Licence](../README.md#licence).
