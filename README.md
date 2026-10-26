@@ -13,7 +13,7 @@ package is the citable engine and this repository is the analysis around it.
 
 | Bundle | Paper | Status |
 | --- | --- | --- |
-| [`paper-g/`](paper-g/) | *A Time-Domain Analogue to Fibonacci Structure via Phase-Gated AR(2) Dynamics*, The Fibonacci Quarterly | accepted, in press |
+| [`paper-g/`](paper-g/) | *A Time-Domain Analogue to Fibonacci Structure via Phase-Gated AR(2) Dynamics*, The Fibonacci Quarterly | published 6 Oct 2026, [doi:10.1080/00150517.2026.2716122](https://doi.org/10.1080/00150517.2026.2716122) |
 
 Further bundles will be added as each paper is accepted.
 
@@ -42,7 +42,7 @@ and diffs it against the committed results, so "does this still reproduce?" is
 one command. `python paper-g/verify.py --quick` runs only the analyses that
 need no download.
 
-Tested on Python 3.10 with `par2-circadian` 1.1.5, NumPy 2.2, pandas 2.3,
+Tested on Python 3.10 with `par2-circadian` 1.2.0, NumPy 2.2, pandas 2.3,
 SciPy 1.15.
 
 ## Related work
@@ -65,13 +65,10 @@ The analysis code in this repository is MIT (see [LICENSE](LICENSE)). The GEO
 data is redistributed by NCBI under its own terms and is downloaded at run time
 rather than vendored here.
 
-**Running these analyses requires more than the MIT licence.** The AR(2) fitting
-is not in this repository: it comes from `par2-circadian`, which is published
-under the [PolyForm Noncommercial License 1.0.0](https://github.com/mickwh2764/par2discovery/blob/main/LICENSE),
-and the PAR(2) methodology is additionally the subject of a pending UK patent
-application. So the MIT grant covers only the code kept here, and the pipeline as
-a whole may be run for noncommercial purposes — which PolyForm defines to include
-use by educational institutions, charitable organisations, public research
-organisations and government bodies. Commercial use requires a separate licence
-for the package (contact mickwh@msn.com); the MIT licence on this repository does
-not grant it.
+The AR(2) fitting is not in this repository: it comes from `par2-circadian`,
+which is published under the [Apache License 2.0](https://github.com/mickwh2764/par2discovery/blob/main/LICENSE)
+from version 1.2.0 (versions up to 1.1.8 were PolyForm Noncommercial 1.0.0).
+`requirements.txt` asks for 1.2.0 or later, so a fresh install gets the Apache
+release. The PAR(2) methodology is additionally the subject of a pending UK
+patent application; Section 3 of Apache-2.0 grants a patent licence for use of
+the package itself.
